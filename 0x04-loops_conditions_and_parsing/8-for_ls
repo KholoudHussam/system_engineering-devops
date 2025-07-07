@@ -1,0 +1,8 @@
+#!/bin/bash
+# Displays formatted filenames
+for f in *
+do
+    if [ -f "$f" ]; then
+        echo "$f" | cut -d - -f 2-
+    fi
+done

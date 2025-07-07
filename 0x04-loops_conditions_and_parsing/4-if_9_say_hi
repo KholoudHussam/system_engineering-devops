@@ -1,0 +1,12 @@
+#!/bin/bash
+# Displays Best School or Hi
+i=1
+while [ $i -le 10 ]
+do
+    if [ $i -eq 9 ]; then
+        echo "Hi"
+    else
+        echo "Best School"
+    fi
+    i=$((i+1))
+done
